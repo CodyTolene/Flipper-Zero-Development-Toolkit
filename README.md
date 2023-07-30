@@ -8,7 +8,7 @@
     Introducing the Flipper Zero application development starter kit! 🎉 It's the ultimate tool to kickstart your creative journey with Flipper Zero projects.
   </p>
   <p align="center">
-    Guess what? I've made it super easy to use! No more headaches from complicated setups. Just fire it up on Windows, Python, and good ol' Visual Studio Code, and you're ready to roll! My goal is to save you time and frustration, so I've put together a friendly readme that you can easily fork and use for your own projects. No need to reinvent the wheel, I've got your back!
+    Welcome to the repository that houses a comprehensive and user-friendly guide for crafting your very own Flipper Zero application. By simply following along with this curated readme, and customizing it to your preferences along the way, you'll have your app up and published in no time. No need to reinvent the wheel, I've got your back!
   </p>
   <p align="center">
     Let's build something awesome together! 💪💻
@@ -47,19 +47,9 @@ Add your image previews here...
 
 ## Software Installation <a name="software-installation"></a>
 
-**Add how to install the software and/or links to your app store page in this section.**
+**How to install the software and/or links to your app store page should go in this section**
 
-Included in this repository is a convenient GitHub Action workflow that automatically lints and compiles the FAP files for both development and release firmware builds. This workflow streamlines the process and ensures your app is ready to go.
-
-Manual Installation Option:
-
-For those whose app isn't yet available on the [Flipper Application Catalog](#flipper-application-catalog), worry not! We've got you covered with a user-friendly manual installation option. Simply follow these steps:
-
-1. Access the latest Action run here: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit/actions
-
-2. Locate the compiled FAP files in a zip format.
-
-3. Install on your flipper device by USB.
+This repository includes GitHub Actions that lint and compile your application automatically. In the latest [GitHub Actions][link-github-action] for this repository you will find zip files containing the FAP application compatible with either the "dev" or "realease" build of the latest Flipper Zero firmware. To manually install the application (for instance your application is not yet available in the [Flipper Application Catalog](#flipper-application-catalog)) you can download those files and manually install them on your Flipper Zero device via USB.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
@@ -156,6 +146,7 @@ Use the following flow to verify build requirements for the [Flipper Application
 [link-flipper-zero-firmware]: https://github.com/flipperdevices/flipperzero-firmware
 [link-flipper-zero]: https://docs.flipperzero.one/
 [link-git]: https://git-scm.com/downloads
+[link-github-action]: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit/actions
 [link-leedave]: https://github.com/leedave
 [link-pull-request]: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit/pulls
 [link-python-venv]: https://docs.python.org/3/library/venv.html
