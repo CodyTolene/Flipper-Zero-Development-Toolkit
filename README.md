@@ -110,6 +110,8 @@ Use the following flow to verify build requirements for the [Flipper Application
 7. If the above command succeeds, the application is ready for submission. Otherwise, fix any errors and try again.
 8. Use `deactivate` to exit the virtual environment and return to your normal terminal.
 
+For more information on Flipper Application Catalog contribution requirements, see [here][link-flipper-application-catalog-contribution].
+
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
 ## Contributions <a name="contributions"></a>
@@ -145,6 +147,7 @@ To add feedback to this repository:
 
 [link-cody-tolene]: https://github.com/CodyTolene
 [link-derek-jamison-youtube]: https://www.youtube.com/@MrDerekJamison
+[link-flipper-application-catalog-contribution]: https://github.com/flipperdevices/flipper-application-catalog/blob/main/documentation/Contributing.md
 [link-flipper-application-catalog]: https://github.com/flipperdevices/flipper-application-catalog
 [link-flipper-devices]: https://github.com/flipperdevices/
 [link-flipper-zero-boilerplate]: https://github.com/leedave/flipper-zero-fap-boilerplate
