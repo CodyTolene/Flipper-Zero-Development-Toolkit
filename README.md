@@ -57,11 +57,17 @@ Add hardware installation instructions here.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
+## Firmware Installation <a name="firmware-installation"></a>
+
+Add firmware installation instructions here.
+
+<p align="right">[ <a href="#index">Back to top</a> ]</p>
+
 ## Software Installation <a name="software-installation"></a>
 
 Add software installation instructions here.
 
-This repository includes GitHub Actions that lint and compile your application automatically. In the latest [GitHub Actions][link-github-action] for this repository you will find zip files containing the FAP application compatible with either the "dev" or "realease" build of the latest Flipper Zero firmware. To manually install the application (for instance your application is not yet available in the [Flipper Application Catalog][link-flipper-application-catalog]) you can download those files and manually install them on your Flipper Zero device via USB.
+This repository includes GitHub Actions that lint and compile your application automatically. In the latest [GitHub Actions][link-github-action] for this repository you will find zip files containing the FAP application compatible with either the "dev" or "release" build of the latest Flipper Zero firmware. To manually install the application (for instance your application is not yet available in the [Flipper Application Catalog][link-flipper-application-catalog]) you can download those files and manually install them on your Flipper Zero device via USB.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
