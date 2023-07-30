@@ -53,17 +53,17 @@ Add how to install the software and/or links to your app store page here. See [F
 
 ## Software Guide <a name="software-guide"></a>
 
-🔼 = Up button does ______.
+🔼 = Up button does **\_\_**.
 
-🔽 = Down button does ______.
+🔽 = Down button does **\_\_**.
 
-◀️ = Left button does ______.
+◀️ = Left button does **\_\_**.
 
-▶️ = Right button does ______.
+▶️ = Right button does **\_\_**.
 
-⚪ = Center button does ______.
+⚪ = Center button does **\_\_**.
 
-↩️ = Go back does ______.
+↩️ = Go back does **\_\_**.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
@@ -107,7 +107,7 @@ Use the following flow to verify build requirements for the [Flipper Application
 4. Ensure that "src-fap\manifest.yml" has the latest commit sha that will be used for submission. Also, verify that the version is correct.
 5. Run `py .submodules/flipper-application-catalog/tools/bundle.py src-fap/manifest.yml bundle.zip` to verify and bundle the application.
 6. If the above command succeeds, the application is ready for submission. Otherwise, fix any errors and try again.
-7. Use deactivate to exit the virtual environment and return to your normal terminal.
+7. Use `deactivate` to exit the virtual environment and return to your normal terminal.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
@@ -123,11 +123,11 @@ Use the following flow to verify build requirements for the [Flipper Application
 
 ## Special Thanks To <a name="special-thanks-to"></a>
 
-- [Cody Tolene][link-cody-tolene] for creating the [Flipper Zero Development Toolkit][link-repo-flipper-zero-development-toolkit]. 
-    
-    Feel free to remove my name, but I would be thrilled to see and be a part of your work if you found this toolkit useful in any way! 😊 Happy coding! 💻
+- [Cody Tolene][link-cody-tolene] for creating the [Flipper Zero Development Toolkit][link-repo-flipper-zero-development-toolkit].
+  Feel free to remove my name, but I would be thrilled to see and be a part of your work if you found this toolkit useful in any way! 😊 Happy coding! 💻
 - [Flipper Devices][link-flipper-devices] for providing the [Flipper Application Catalog][link-flipper-application-catalog], [uFBT][link-ufbt], their [firmware][link-flipper-zero-firmware], and the incredible [Flipper Zero][link-flipper-zero] hardware itself.
 - Derek Jamison for his insightful [YouTube videos][link-derek-jamison-youtube] on Flipper Zero application development.
+- GitHub user [eedave][link-leedave] for helping me learn more about Flipper Zero development by [boilerplate example][link-flipper-zero-boilerplate].
 - The [Unleashed Firmware][link-unleashed] community and their valuable contributions.
 - The [Xtreme Firmware][link-xtreme-firmware] community and their remarkable work.
 
@@ -139,9 +139,11 @@ Use the following flow to verify build requirements for the [Flipper Application
 [link-derek-jamison-youtube]: https://www.youtube.com/@MrDerekJamison
 [link-flipper-application-catalog]: https://github.com/flipperdevices/flipper-application-catalog
 [link-flipper-devices]: https://github.com/flipperdevices/
+[link-flipper-zero-boilerplate]: https://github.com/leedave/flipper-zero-fap-boilerplate
 [link-flipper-zero-firmware]: https://github.com/flipperdevices/flipperzero-firmware
 [link-flipper-zero]: https://docs.flipperzero.one/
 [link-git]: https://git-scm.com/downloads
+[link-leedave]: https://github.com/leedave
 [link-pull-request]: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit/pulls
 [link-python-venv]: https://docs.python.org/3/library/venv.html
 [link-python]: https://www.python.org/downloads/
