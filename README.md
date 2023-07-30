@@ -5,9 +5,6 @@
     Hey there, fellow developer!
   </p>
   <p align="center">
-    Introducing the Flipper Zero application development starter kit! 🎉 It's the ultimate tool to kickstart your creative journey with Flipper Zero projects.
-  </p>
-  <p align="center">
     Welcome to the repository that houses a comprehensive and user-friendly guide for crafting your very own Flipper Zero application. By simply following along with this curated readme, and customizing it to your preferences along the way, you'll have your app up and published in no time. No need to reinvent the wheel, I've got your back!
   </p>
   <p align="center">
