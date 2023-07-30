@@ -47,7 +47,19 @@ Add your image previews here...
 
 ## Software Installation <a name="software-installation"></a>
 
-Add how to install the software and/or links to your app store page here. See [Flipper Application Catalog](#flipper-application-catalog) below for more information.
+**Add how to install the software and/or links to your app store page in this section.**
+
+Included in this repository is a convenient GitHub Action workflow that automatically lints and compiles the FAP files for both development and release firmware builds. This workflow streamlines the process and ensures your app is ready to go.
+
+Manual Installation Option:
+
+For those whose app isn't yet available on the [Flipper Application Catalog](#flipper-application-catalog), worry not! We've got you covered with a user-friendly manual installation option. Simply follow these steps:
+
+1. Access the latest Action run here: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit/actions
+
+2. Locate the compiled FAP files in a zip format.
+
+3. Install on your flipper device by USB.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
