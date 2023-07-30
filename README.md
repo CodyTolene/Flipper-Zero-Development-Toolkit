@@ -84,7 +84,7 @@ This repository includes GitHub Actions that lint and compile your application a
    ```
    This includes the Flipper Zero firmware library for your project (you can update it to a custom firmware if needed).
 9. If Visual Studio Code shows import errors after saving the above settings from step 8, run the build script (see step 10) to resolve them.
-10. You can now perform various tasks within Visual Studio Code using Ctrl+Shift+B or "Terminal -> Run Task." Alternatively, you can use [uFBT][link-ufbt] scripts in the terminal. Here are some useful commands to get started:
+10. It should now be possible perform various tasks within Visual Studio Code using Ctrl+Shift+B or "Terminal -> Run Task." Alternatively, you can use [uFBT][link-ufbt] scripts in the terminal. Here are some useful commands to get started:
     | Command | Description |
     | ------------- | -------------------------------------------------- |
     | `ufbt cli` | Starts a CLI session with the Flipper Zero device. |
@@ -92,7 +92,8 @@ This repository includes GitHub Actions that lint and compile your application a
     | `ufbt lint` | Lint the application. |
     | `ufbt format` | Format the application. |
     | `ufbt launch` | Upload and start application over USB. |
-11. After making changes, linting, testing, etc., please refer to the [contributions section](#contributions) for a guide on how to submit your code for review.
+11. You're now ready to begin programming your application within the directory "src-fap/" with "src-fap/toolkit.c" -> `toolkit_app(...)` being your entry point.
+12. After making changes, linting, testing, etc., please refer to the [contributions section](#contributions) for a guide on how to submit your code for review (to make changes to this repo) or forking for your own use.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
