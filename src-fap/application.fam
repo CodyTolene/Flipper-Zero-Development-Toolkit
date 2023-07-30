@@ -1,0 +1,17 @@
+App(
+    appid="toolkit",
+    apptype=FlipperAppType.EXTERNAL,
+    cdefines=["APP_TOOLKIT"],
+    entry_point="toolkit_app",
+    fap_author="@CodyTolene",
+    fap_category="Sub-GHz",
+    fap_description="A Flipper Zero Development Toolkit for all to use!",
+    fap_icon="icons/toolkit.png",
+    fap_libs=["assets"],
+    fap_version="1.0",
+    fap_weburl="https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit",
+    name="Development Toolkit",
+    order=50,
+    requires=["gui", "storage"],
+    stack_size=8 * 1024,
+)

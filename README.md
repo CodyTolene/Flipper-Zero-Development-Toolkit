@@ -1,8 +1,17 @@
 <div align="center">
-  <img align="center" src=".github/images/flipper-dev.png" />
-  <h2 align="center">Flipper Zero Windows Development</h2>
+  <img align="center" src=".github/images/blank-flipper.png" />
+  <h2 align="center">Flipper Zero - Development Toolkit</h2>
   <p align="center">
-    This guide provides a quick start for developing Flipper Zero firmware and applications on Windows using Visual Studio Code. It is a compilation of information from the official Flipper Zero documentation and various other sources.
+    Hey there, fellow developer!
+  </p>
+  <p align="center">
+    Introducing the Flipper Zero application development starter kit! 🎉 It's the ultimate tool to kickstart your creative journey with Flipper Zero projects.
+  </p>
+  <p align="center">
+    Guess what? I've made it super easy to use! No more headaches from complicated setups. Just fire it up on Windows, Python, and good ol' Visual Studio Code, and you're ready to roll! My goal is to save you time and frustration, so I've put together a friendly readme that you can easily fork and use for your own projects. No need to reinvent the wheel, I've got your back!
+  </p>
+  <p align="center">
+    Let's build something awesome together! 💪💻
   </p>
   <a href="https://shop.flipperzero.one/">
     <img src=".github/images/flipper-zero-buy-now.svg" />
@@ -10,160 +19,134 @@
   <a href="https://docs.flipperzero.one/">
     <img src=".github/images/flipper-zero-docs.svg" />
   </a>
-  <p align="center">
-    <b>Disclaimer</b>: This is not an official guide endorsed by the Flipper Zero team. It is a personal guide created to assist in Flipper Zero development on Windows. The author is not liable for any damage caused to your device or computer. Use it at your own risk.
-  </p>
 </div>
 
 ---
 
 ## Table of Contents <a name="index"></a>
 
-- [Firmware Development & Setup](#firmware-development)
-- [Building and Flashing Firmware](#building-and-flashing-firmware)
-- [Application Development](#application-development)
-- [Build and Upload Application](#build-and-upload-app)
+- [Previews](#previews)
+- [Software Installation](#software-installation)
+- [Software Guide](#software-guide)
+- [Development Guide](#development-guide)
+- [Flipper Application Catalog](#flipper-application-catalog)
+- [Contributions](#contributions)
+- [Special Thanks To](#special-thanks-to)
 
-## Firmware Development (and Application Development Pre-Setup) <a name="firmware-development"></a>
+## Previews <a name="previews"></a>
 
-1. Install the following prerequisites:
+Add your image previews here...
 
-   - [GIT](https://git-scm.com/downloads)
-   - [Visual Studio Code](https://code.visualstudio.com/download)
-   - [Python](https://www.python.org/downloads/)
-
-2. Open a command terminal as an administrator:
-
-   - Press ⊞Win+R, type "cmd", and press CTRL+SHIFT+ENTER.
-
-3. Navigate to the folder where you want to develop:
-
-   ```
-   cd X:\Development
-   ```
-
-4. Clone the [Flipper Zero][flipper-zero] firmware repository you want to work with (options [here](https://github.com/UberGuidoZ/Flipper/tree/main/Firmware_Options)):
-
-   ```
-   git clone https://github.com/flipperdevices/flipperzero-firmware.git
-   ```
-
-5. Change directory to the cloned firmware repository:
-
-   ```
-   cd flipperzero-firmware
-   ```
-
-6. Download the Windows toolchain and set up Visual Studio Code files:
-
-   ```
-   fbt vscode_dist
-   ```
-
-   This command will download the Windows Toolchain. It may take a few minutes to complete.
-
-7. Check that the command line now shows "(fbt)" indicating the [Flipper Build Tool][flipper-zero-build-tool] entry point has been invoked.
-
-8. Open Visual Studio Code:
-
-   - Click "File" in the top menu and select "Open Folder...".
-   - Choose the firmware folder you cloned and click "Select Folder".
-
-9. Install the necessary extensions:
-
-   - Click "View" in the top menu and select "Extensions".
-   - Install all recommended extensions for this project.
-   - Disable or uninstall any "CMake" related extensions specific to this project.
-
-10. In the command terminal (still within the firmware directory), checkout the branch you want to work on or create a new branch:
-
-    ```
-    git checkout release
-    ```
-
-11. In Visual Studio Code make your changes to the code, build, and flash the firmware to your device (see [Building and Flashing Firmware](#building-and-flashing-firmware)). Fin.
+<!--
+<img align="center" src=".github/images/preview_01.png" />
+<img align="center" src=".github/images/preview_02.png" />
+<img align="center" src=".github/images/preview_03.png" />
+-->
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
-## Building and Flashing Firmware <a name="building-and-flashing-firmware"></a>
+## Software Installation <a name="software-installation"></a>
 
-1. Build the firmware in Visual Studio Code:
-
-   - Click "Terminal" in the top menu and select "Run Task...".
-   - Choose "Build" from the list of tasks.
-
-2. Flash the firmware to your Flipper Zero device:
-   - Connect your Flipper Zero device to your computer via USB.
-   - Click "Terminal" in the top menu and select "Run Task...".
-   - Choose "Flash (USB, with resources)" from the list of tasks.
+Add how to install the software and/or links to your app store page here. See [Flipper Application Catalog](#flipper-application-catalog) below for more information.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
-## Application Development <a name="application-development"></a>
+## Software Guide <a name="software-guide"></a>
 
-1. Follow the [Firmware Development](#firmware-development) steps above to set up your development environment.
+🔼 = Up button does ______.
 
-2. Open the firmware folder you cloned in Visual Studio Code.
+🔽 = Down button does ______.
 
-3. Open a terminal in the firmware folder and run the following code to instantiate the Flipper Build Tool (fbt) entry point:
+◀️ = Left button does ______.
 
-   ```
-   fbt
-   ```
+▶️ = Right button does ______.
 
-   This command may take a few minutes to complete. Once it's finished, the command line will show "(fbt)" indicating that the [Flipper Build Tool][flipper-zero-build-tool] entry point has been invoked.
+⚪ = Center button does ______.
 
-4. Create a new application folder in the "applications_user" directory. Give it a unique and descriptive name. This is where you will develop your application.
-
-5. To get a good understanding of what you can do with your application, you can copy the contents of the [boilerplate application][boilerplate-app] into your new application folder. For example, I will name my application folder "test."
-
-6. Open the "applications_user\test" directory in Visual Studio Code and start working on your application.
-
-7. Save your changes. Connect your [Flipper Zero][flipper-zero] device to your computer via USB. In the terminal, enter the following command to connect to it using the fbt CLI tool and run your application:
-
-   ```
-   fbt launch_app APPSRC=applications_user/test
-   ```
-
-   This command will build and run your application on your device. You can now test it out.
-
-8. Once you're happy with the application you can build and upload it to your device (see [Build and Upload Application](#build-and-upload-app)).
+↩️ = Go back does ______.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
-## Build and Upload Application <a name="build-and-upload-app"></a>
+## Development Guide <a name="development-guide"></a>
 
-1. Connect your [Flipper Zero][flipper-zero] device to your computer via USB.
-
-2. Open a terminal in the firmware folder with fbt instantiated (see [Application Development](#application-development)).
-
-3. Enter the following command to build and upload your application to your device. Replace `{application-folder-name}` with the name of your application folder. Replace `application-id` with the application name you used in `application.fam`:
-
+1. Make sure you have [Git][link-git] and [Visual Studio Code][link-visual-studio-code] installed on your system.
+2. Clone the repository and its submodule dependencies using the following command:
+   ```bash
+   git clone https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit.git --recurse-submodules
    ```
-   fbt fap_{application-id} APPSRC=applications_user/{application-folder-name}
+3. Download and install [Python][link-python].
+4. Open a new terminal in the "src-fap" directory of this project.
+5. Run `py -m pip install --upgrade ufbt` to ensure you have the latest [uFBT][link-ufbt] installed.
+6. Run `ufbt vscode_dist` to download the Windows toolchain and set up Visual Studio Code files.
+7. Open the project "fap" directory ("src-fap") in Visual Studio Code. Make sure you have "Microsoft C/C++" extension installed and enabled.
+8. In Visual Studio Code, open the command palette (CTRL+SHIFT+P) and type "C/C++ Edit Configurations (UI)" to find and open its settings. Add the following directory to the "Include path" option:
    ```
-
-   This command will build and upload your application over USB. It may take a few minutes to complete.
-
-4. Alternatively enter the following command to build and deploy all applications (including yours) to your [Flipper Zero][flipper-zero] device:
-
+   ${workspaceFolder}/../.submodules/flipperzero-firmware
    ```
-   fbt fap_deploy
-   ```
-
-   This command will build your application and upload it over USB. It may take a few minutes to complete.
-
-5. Once the command is finished, find your application in the "Applications" menu on your [Flipper Zero][flipper-zero] device within the "Misc" folder.
+   This includes the Flipper Zero firmware library for your project (you can update it to a custom firmware if needed).
+9. If Visual Studio Code shows import errors after saving the above settings from step 8, run the build script (see step 10) to resolve them.
+10. You can now perform various tasks within Visual Studio Code using Ctrl+Shift+B or "Terminal -> Run Task." Alternatively, you can use [uFBT][link-ufbt] scripts in the terminal. Here are some useful commands to get started:
+    | Command | Description |
+    | ------------- | -------------------------------------------------- |
+    | `ufbt cli` | Starts a CLI session with the Flipper Zero device. |
+    | `ufbt build` | Build the application. |
+    | `ufbt lint` | Lint the application. |
+    | `ufbt format` | Format the application. |
+    | `ufbt launch` | Upload and start application over USB. |
+11. After making changes, linting, testing, etc., please refer to the [contributions section](#contributions) for a guide on how to submit your code for review.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
-Fin. Thanks for looking and happy programming friend!
+## Flipper Application Catalog <a name="flipper-application-catalog"></a>
 
-Cody
+Use the following flow to verify build requirements for the [Flipper Application Catalog][link-flipper-application-catalog]:
+
+1. Run `py -m venv venv` to install a [virtual environment][link-python-venv] for use.
+2. Activate the virtual environment with the command `venv\Scripts\activate`.
+3. Install the required dependencies by running `pip install -r .submodules/flipper-application-catalog/tools/requirements.txt`.
+4. Ensure that "src-fap\manifest.yml" has the latest commit sha that will be used for submission. Also, verify that the version is correct.
+5. Run `py .submodules/flipper-application-catalog/tools/bundle.py src-fap/manifest.yml bundle.zip` to verify and bundle the application.
+6. If the above command succeeds, the application is ready for submission. Otherwise, fix any errors and try again.
+7. Use deactivate to exit the virtual environment and return to your normal terminal.
+
+<p align="right">[ <a href="#index">Back to top</a> ]</p>
+
+## Contributions <a name="contributions"></a>
+
+1. Fork the repository.
+2. Create a new branch with a descriptive name: `<username>/[<issue-#>]-<feature-or-bug-fix-desc>`
+3. Refer to the Development Guide to get started. Program, commit changes, and push to your branch.
+4. Publish a pull request [here][link-pull-request] for review from your branch.
+5. Wait for review and merge. Thank you for your contribution!
+
+<p align="right">[ <a href="#index">Back to top</a> ]</p>
+
+## Special Thanks To <a name="special-thanks-to"></a>
+
+- [Cody Tolene][link-cody-tolene] for creating the [Flipper Zero Development Toolkit][link-repo-flipper-zero-development-toolkit]. 
+    
+    Feel free to remove my name, but I would be thrilled to see and be a part of your work if you found this toolkit useful in any way! 😊 Happy coding! 💻
+- [Flipper Devices][link-flipper-devices] for providing the [Flipper Application Catalog][link-flipper-application-catalog], [uFBT][link-ufbt], their [firmware][link-flipper-zero-firmware], and the incredible [Flipper Zero][link-flipper-zero] hardware itself.
+- Derek Jamison for his insightful [YouTube videos][link-derek-jamison-youtube] on Flipper Zero application development.
+- The [Unleashed Firmware][link-unleashed] community and their valuable contributions.
+- The [Xtreme Firmware][link-xtreme-firmware] community and their remarkable work.
+
+<p align="right">[ <a href="#index">Back to top</a> ]</p>
 
 <!-- LINKS -->
 
-[flipper-zero]: https://flipperzero.one/
-[boilerplate-app]: https://github.com/leedave/flipper-zero-fap-boilerplate
-[flipper-zero-build-tool]: https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/fbt.md
-[flipper-zero-docs]: https://docs.flipperzero.one/
+[link-cody-tolene]: https://github.com/CodyTolene
+[link-derek-jamison-youtube]: https://www.youtube.com/@MrDerekJamison
+[link-flipper-application-catalog]: https://github.com/flipperdevices/flipper-application-catalog
+[link-flipper-devices]: https://github.com/flipperdevices/
+[link-flipper-zero-firmware]: https://github.com/flipperdevices/flipperzero-firmware
+[link-flipper-zero]: https://docs.flipperzero.one/
+[link-git]: https://git-scm.com/downloads
+[link-pull-request]: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit/pulls
+[link-python-venv]: https://docs.python.org/3/library/venv.html
+[link-python]: https://www.python.org/downloads/
+[link-repo-flipper-zero-development-toolkit]: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit
+[link-ufbt]: https://github.com/flipperdevices/flipperzero-ufbt
+[link-unleashed]: https://github.com/DarkFlippers/unleashed-firmware
+[link-visual-studio-code]: https://code.visualstudio.com/download
+[link-xtreme-firmware]: https://github.com/Flipper-XFW/Xtreme-Firmware

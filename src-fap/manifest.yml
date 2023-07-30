@@ -1,0 +1,19 @@
+# Manifest required for the Flipper Application Catalog
+# https://github.com/flipperdevices/flipper-application-catalog/blob/main/documentation/Manifest.md
+author: "@CodyTolene"
+category: "Sub-GHz"
+changelog: "@./docs/CHANGELOG.md"
+description: "@./docs/README.md"
+icon: "icons/toolkit.png"
+id: "toolkit"
+name: "Development Toolkit"
+screenshots:
+  - "screenshots/todo.png"
+short_description: "A Flipper Zero Development Toolkit for all to use!"
+sourcecode:
+  location:
+    commit_sha: ... # Update this with the latest commit sha
+    origin: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit.git
+    subdir: src-fap
+  type: git
+version: 1.0
