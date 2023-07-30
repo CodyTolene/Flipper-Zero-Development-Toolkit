@@ -35,7 +35,7 @@
 
 ## Previews <a name="previews"></a>
 
-Add your image previews here...
+Add image previews here.
 
 <!--
 <img align="center" src=".github/images/preview_01.png" />
@@ -47,13 +47,13 @@ Add your image previews here...
 
 ## Hardware Requirements <a name="hardware-requirements"></a>
 
-Add hardware requirements here...
+Add hardware requirements here.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
 ## Hardware Installation <a name="hardware-installation"></a>
 
-Add hardware installation instructions here...
+Add hardware installation instructions here.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
