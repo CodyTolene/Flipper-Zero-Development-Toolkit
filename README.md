@@ -114,6 +114,13 @@ Use the following flow to verify build requirements for the [Flipper Application
 
 ## Contributions <a name="contributions"></a>
 
+To create your own variation:
+
+1. Fork the repository.
+2. Add your code, push.
+
+To add feedback to this repository:
+
 1. Fork the repository.
 2. Create a new branch with a descriptive name: `<username>/[<issue-#>]-<feature-or-bug-fix-desc>`
 3. Refer to the Development Guide to get started. Program, commit changes, and push to your branch.
