@@ -44,7 +44,7 @@ Add your image previews here...
 
 ## Software Installation <a name="software-installation"></a>
 
-**How to install the software and/or links to your app store page should go in this section**
+How to install the software and/or links to your app store page should go in this section.
 
 This repository includes GitHub Actions that lint and compile your application automatically. In the latest [GitHub Actions][link-github-action] for this repository you will find zip files containing the FAP application compatible with either the "dev" or "realease" build of the latest Flipper Zero firmware. To manually install the application (for instance your application is not yet available in the [Flipper Application Catalog](#flipper-application-catalog)) you can download those files and manually install them on your Flipper Zero device via USB.
 
