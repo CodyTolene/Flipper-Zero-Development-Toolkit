@@ -113,13 +113,14 @@ For those whose app isn't yet available on the [Flipper Application Catalog](#fl
 
 Use the following flow to verify build requirements for the [Flipper Application Catalog][link-flipper-application-catalog]:
 
-1. Run `py -m venv venv` to install a [virtual environment][link-python-venv] for use.
-2. Activate the virtual environment with the command `venv\Scripts\activate`.
-3. Install the required dependencies by running `pip install -r .submodules/flipper-application-catalog/tools/requirements.txt`.
-4. Ensure that "src-fap\manifest.yml" has the latest commit sha that will be used for submission. Also, verify that the version is correct.
-5. Run `py .submodules/flipper-application-catalog/tools/bundle.py src-fap/manifest.yml bundle.zip` to verify and bundle the application.
-6. If the above command succeeds, the application is ready for submission. Otherwise, fix any errors and try again.
-7. Use `deactivate` to exit the virtual environment and return to your normal terminal.
+1. Open a new terminal at the root of this project.
+2. Run `py -m venv venv` to install a [virtual environment][link-python-venv] for use.
+3. Activate the virtual environment with the command `venv\Scripts\activate`.
+4. Install the required dependencies by running `pip install -r .submodules/flipper-application-catalog/tools/requirements.txt`.
+5. Ensure that "src-fap\manifest.yml" has the latest commit sha that will be used for submission. Also, verify that the version is correct.
+6. Run `py .submodules/flipper-application-catalog/tools/bundle.py src-fap/manifest.yml bundle.zip` to verify and bundle the application.
+7. If the above command succeeds, the application is ready for submission. Otherwise, fix any errors and try again.
+8. Use `deactivate` to exit the virtual environment and return to your normal terminal.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
