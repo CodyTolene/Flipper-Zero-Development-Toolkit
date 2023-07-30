@@ -127,7 +127,7 @@ Use the following flow to verify build requirements for the [Flipper Application
   Feel free to remove my name, but I would be thrilled to see and be a part of your work if you found this toolkit useful in any way! 😊 Happy coding! 💻
 - [Flipper Devices][link-flipper-devices] for providing the [Flipper Application Catalog][link-flipper-application-catalog], [uFBT][link-ufbt], their [firmware][link-flipper-zero-firmware], and the incredible [Flipper Zero][link-flipper-zero] hardware itself.
 - Derek Jamison for his insightful [YouTube videos][link-derek-jamison-youtube] on Flipper Zero application development.
-- GitHub user [eedave][link-leedave] for helping me learn more about Flipper Zero development by [boilerplate example][link-flipper-zero-boilerplate].
+- GitHub user [leedave][link-leedave] for helping me learn more about Flipper Zero development by [boilerplate example][link-flipper-zero-boilerplate].
 - The [Unleashed Firmware][link-unleashed] community and their valuable contributions.
 - The [Xtreme Firmware][link-xtreme-firmware] community and their remarkable work.
 
