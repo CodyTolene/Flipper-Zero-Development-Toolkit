@@ -35,7 +35,7 @@
 
 ## Previews <a name="previews"></a>
 
-Add image previews here.
+Add in-app screenshot previews here or GIF's to demonstrate your application in action. You can use [ScreenToGif][link-screen-to-gif] to record GIF's of your application.
 
 <!--
 <img align="center" src=".github/images/preview_01.png" />
@@ -47,19 +47,19 @@ Add image previews here.
 
 ## Hardware Requirements <a name="hardware-requirements"></a>
 
-Add hardware requirements here.
+Define hardware requirements to run your application here. For example, if your application requires a Flipper Zero GPIO device, you would add a link to the Flipper Zero GPIO device here.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
 ## Hardware Installation <a name="hardware-installation"></a>
 
-Add hardware installation instructions here.
+Add hardware installation instructions here. Useful for when you need to GPIO devices pinout guides and the like.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
 ## Firmware Installation <a name="firmware-installation"></a>
 
-Add firmware installation instructions here.
+Add firmware installation instructions here. As an example this would be useful for when you need a guide for flashing a custom firmware to your Flipper Zero GPIO device.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
@@ -72,6 +72,8 @@ This repository includes GitHub Actions that lint and compile your application a
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
 ## Software Guide <a name="software-guide"></a>
+
+Demonstrate how the application works regarding the Flipper Zero's button layout. You can use this to guide your users on how to use your application more clearly.
 
 🔼 = Up button does **\_\_**.
 
@@ -181,6 +183,7 @@ To add feedback to this repository:
 [link-python-venv]: https://docs.python.org/3/library/venv.html
 [link-python]: https://www.python.org/downloads/
 [link-repo-flipper-zero-development-toolkit]: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit
+[link-screen-to-gif]: https://www.screentogif.com/
 [link-ufbt]: https://github.com/flipperdevices/flipperzero-ufbt
 [link-unleashed]: https://github.com/DarkFlippers/unleashed-firmware
 [link-visual-studio-code]: https://code.visualstudio.com/download
