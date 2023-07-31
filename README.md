@@ -59,7 +59,7 @@ Add hardware installation instructions here. Useful for when you need to demonst
 
 ## Firmware Installation <a name="firmware-installation"></a>
 
-Add firmware installation instructions here. As an example this would be useful for when you need a guide for flashing a custom firmware to your Flipper Zero GPIO device.
+Add firmware installation instructions here. As an example this would be useful for when you need a guide for flashing a custom firmware to your Flipper Zero GPIO device. Add firmware files to the "src-firmware/" directory.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
