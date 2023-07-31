@@ -35,7 +35,7 @@
 
 ## Previews <a name="previews"></a>
 
-Add in-app screenshot previews here or GIF's to demonstrate your application in action. You can use [ScreenToGif][link-screen-to-gif] to record GIF's of your application.
+Add in-app screenshot previews in this section or GIF's to demonstrate your application in action. You can use [ScreenToGif][link-screen-to-gif] to record GIF's of your application.
 
 <!--
 <img align="center" src=".github/images/preview_01.png" />
@@ -53,7 +53,7 @@ Define hardware requirements to run your application here. For example, if your 
 
 ## Hardware Installation <a name="hardware-installation"></a>
 
-Add hardware installation instructions here. Useful for when you need to GPIO devices pinout guides and the like.
+Add hardware installation instructions here. Useful for when you need to demonstrate GPIO device pinout guides and the like.
 
 <p align="right">[ <a href="#index">Back to top</a> ]</p>
 
