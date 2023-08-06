@@ -103,7 +103,7 @@ Demonstrate how the application works regarding the Flipper Zero's button layout
 7. Open the project "fap" directory ("src-fap") in Visual Studio Code. Make sure you have "Microsoft C/C++" extension installed and enabled.
 8. In Visual Studio Code, open the command palette (CTRL+SHIFT+P) and type "C/C++ Edit Configurations (UI)" to find and open its settings. Add the following directory to the "Include path" option:
    ```
-   ${workspaceFolder}/../.submodules/flipperzero-firmware
+   ${workspaceFolder}/../.submodules/**
    ```
    This includes the Flipper Zero firmware library for your project (you can update it to a custom firmware if needed).
 9. If Visual Studio Code shows import errors after saving the above settings from step 8, run the build script (see step 10) to resolve them.
