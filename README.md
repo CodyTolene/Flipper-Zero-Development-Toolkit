@@ -231,7 +231,7 @@ Thanks to all the people and projects that made this possible! I hope you enjoy 
 | :------------------------------------------------------------------------ | :------------------------------------------------------------------------ |
 | <img width="48" src=".github/images/ng-icons/email.svg" />                | webmaster@codytolene.com                                                  |
 | <img width="48" src=".github/images/simple-icons/buymeacoffee.svg" />     | https://www.buymeacoffee.com/codytolene                                   |
-| <img width="48" src=".github/images/simple-icons/bitcoin-btc-logo.svg" /> | [bc1qfx3lvspkj0q077u3gnrnxqkqwyvcku2nml86wmudy7yf2u8edmqq0a5vnt][url-btc] |
+| <img width="48" src=".github/images/simple-icons/bitcoin-btc-logo.svg" /> | [bc1qfx3lvspkj0q077u3gnrnxqkqwyvcku2nml86wmudy7yf2u8edmqq0a5vnt][link-btc] |
 
 Fin. Happy programming friend!
 
@@ -245,6 +245,7 @@ Cody Tolene
 
 <!-- LINKS -->
 
+[link-btc]: https://explorer.btc.com/btc/address/bc1qfx3lvspkj0q077u3gnrnxqkqwyvcku2nml86wmudy7yf2u8edmqq0a5vnt
 [link-cody-tolene]: https://github.com/CodyTolene
 [link-derek-jamison-youtube]: https://www.youtube.com/@MrDerekJamison
 [link-discord-squachtopia]: https://discord.gg/squachtopia
