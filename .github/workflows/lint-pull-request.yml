@@ -13,7 +13,7 @@ jobs:
         uses: flipperdevices/flipperzero-ufbt-action@v0.1.2
         id: build-app
         with:
-          app-dir: ./src-fap
+          app-dir: ./fap
           sdk-channel: dev
       - name: Lint sources
         uses: flipperdevices/flipperzero-ufbt-action@v0.1.2

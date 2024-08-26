@@ -14,6 +14,6 @@ sourcecode:
   location:
     commit_sha: ... # Update this with the latest commit sha
     origin: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit.git
-    subdir: src-fap
+    subdir: fap
   type: git
 version: 1.0

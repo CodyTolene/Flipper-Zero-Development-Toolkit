@@ -7,4 +7,4 @@
 /venv
 __pycache__
 dist/*
-src-fap/.gitignore
+fap/.gitignore
