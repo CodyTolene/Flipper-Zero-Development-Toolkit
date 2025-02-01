@@ -123,6 +123,9 @@ Demonstrate how the application works regarding the Flipper Zero's button layout
 4. Open a new terminal in the "fap" directory of this project.
 5. Run `py -m pip install --upgrade ufbt` to ensure you have the latest [uFBT][link-ufbt] installed.
 6. Run `ufbt vscode_dist` to download the Windows toolchain and set up Visual Studio Code files.
+
+   > ![Info][img-info] You may need to set your system PATH before running `ufbt` ie: `setx PATH "%PATH%;C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python313\Scripts"`
+
 7. Open the project "fap" directory ("fap") in Visual Studio Code. Make sure you have "Microsoft C/C++" extension installed and enabled.
 8. In Visual Studio Code, open the command palette (CTRL+SHIFT+P) and type "C/C++ Edit Configurations (UI)" to find and open its settings. Add the following directory to the "Include path" option:
    ```
@@ -242,6 +245,9 @@ Cody Tolene
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->
+
+<!-- IMAGES -->
+[img-info]: .github/images/ng-icons/info.svg
 
 <!-- LINKS -->
 
