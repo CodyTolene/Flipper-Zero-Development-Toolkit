@@ -230,11 +230,11 @@ Thank you for your support! 🙏
 
 Thanks to all the people and projects that made this possible! I hope you enjoy this project as much as I enjoyed working on it. If you have any questions, please let me know by opening an issue [here][link-link-url-new-issue].
 
-| Type                                                                      | Info                                                                      |
-| :------------------------------------------------------------------------ | :------------------------------------------------------------------------ |
-| <img width="48" src=".github/images/ng-icons/email.svg" />                | webmaster@codytolene.com                                                  |
-| <img width="48" src=".github/images/simple-icons/github.svg" />           | https://github.com/sponsors/CodyTolene                                             |
-| <img width="48" src=".github/images/simple-icons/buymeacoffee.svg" />     | https://www.buymeacoffee.com/codytolene                                   |
+| Type                                                                      | Info                                                                       |
+| :------------------------------------------------------------------------ | :------------------------------------------------------------------------- |
+| <img width="48" src=".github/images/ng-icons/email.svg" />                | webmaster@codytolene.com                                                   |
+| <img width="48" src=".github/images/simple-icons/github.svg" />           | https://github.com/sponsors/CodyTolene                                     |
+| <img width="48" src=".github/images/simple-icons/buymeacoffee.svg" />     | https://www.buymeacoffee.com/codytolene                                    |
 | <img width="48" src=".github/images/simple-icons/bitcoin-btc-logo.svg" /> | [bc1qfx3lvspkj0q077u3gnrnxqkqwyvcku2nml86wmudy7yf2u8edmqq0a5vnt][link-btc] |
 
 Fin. Happy programming friend!
