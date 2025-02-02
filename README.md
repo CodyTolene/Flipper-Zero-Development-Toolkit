@@ -230,12 +230,12 @@ Thank you for your support! 🙏
 
 Thanks to all the people and projects that made this possible! I hope you enjoy this project as much as I enjoyed working on it. If you have any questions, please let me know by opening an issue [here][link-link-url-new-issue].
 
-| Type                                                                      | Info                                                                       |
-| :------------------------------------------------------------------------ | :------------------------------------------------------------------------- |
-| <img width="48" src=".github/images/ng-icons/email.svg" />                | webmaster@codytolene.com                                                   |
-| <img width="48" src=".github/images/simple-icons/github.svg" />           | https://github.com/sponsors/CodyTolene                                     |
-| <img width="48" src=".github/images/simple-icons/buymeacoffee.svg" />     | https://www.buymeacoffee.com/codytolene                                    |
-| <img width="48" src=".github/images/simple-icons/bitcoin-btc-logo.svg" /> | [bc1qfx3lvspkj0q077u3gnrnxqkqwyvcku2nml86wmudy7yf2u8edmqq0a5vnt][link-btc] |
+| Type                                                                      | Info                                                           |
+| :------------------------------------------------------------------------ | :------------------------------------------------------------- |
+| <img width="48" src=".github/images/ng-icons/email.svg" />                | webmaster@codytolene.com                                       |
+| <img width="48" src=".github/images/simple-icons/github.svg" />           | https://github.com/sponsors/CodyTolene                         |
+| <img width="48" src=".github/images/simple-icons/buymeacoffee.svg" />     | https://www.buymeacoffee.com/codytolene                        |
+| <img width="48" src=".github/images/simple-icons/bitcoin-btc-logo.svg" /> | bc1qfx3lvspkj0q077u3gnrnxqkqwyvcku2nml86wmudy7yf2u8edmqq0a5vnt |
 
 Fin. Happy programming friend!
 
@@ -252,8 +252,6 @@ Cody Tolene
 
 <!-- LINKS -->
 
-[link-btc]: https://explorer.btc.com/btc/address/bc1qfx3lvspkj0q077u3gnrnxqkqwyvcku2nml86wmudy7yf2u8edmqq0a5vnt
-[link-cody-tolene]: https://github.com/CodyTolene
 [link-derek-jamison-youtube]: https://www.youtube.com/@MrDerekJamison
 [link-discord-squachtopia]: https://discord.gg/squachtopia
 [link-flipper-application-catalog-contribution]: https://github.com/flipperdevices/flipper-application-catalog/blob/main/documentation/Contributing.md
@@ -276,10 +274,8 @@ Cody Tolene
 [link-pull-request]: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit/pulls
 [link-python-venv]: https://docs.python.org/3/library/venv.html
 [link-python]: https://www.python.org/downloads/
-[link-repo-flipper-zero-development-toolkit]: https://github.com/CodyTolene/Flipper-Zero-Development-Toolkit
 [link-screen-to-gif]: https://www.screentogif.com/
 [link-ufbt]: https://github.com/flipperdevices/flipperzero-ufbt
 [link-unleashed]: https://github.com/DarkFlippers/unleashed-firmware
 [link-visual-studio-code]: https://code.visualstudio.com/download
-[link-xtreme-firmware]: https://github.com/Flipper-XFW/Xtreme-Firmware
 [link-youtube-talkingsasquach]: https://www.youtube.com/@TalkingSasquach
